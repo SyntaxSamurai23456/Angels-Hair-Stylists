@@ -129,3 +129,15 @@ body{
   .hero h1{font-size:22px}
   .gallery-item img{height:130px}
 }
+/* --- MOBILE MAP FIX --- */
+@media (max-width: 800px) {
+  .map-card iframe {
+    width: 100%;
+    min-height: 320px;
+    display: block;
+  }
+  .map-card {
+    display: block;
+    overflow: visible;
+  }
+}
