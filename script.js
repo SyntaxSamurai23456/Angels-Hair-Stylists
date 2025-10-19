@@ -59,4 +59,3 @@ document.addEventListener('DOMContentLoaded', () => {
   // Optional: Preload gallery images for smoother lightbox
   images.forEach(src => { const img = new Image(); img.src = src; });
 });
-

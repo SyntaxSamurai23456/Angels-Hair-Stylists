@@ -13,7 +13,6 @@
   <header class="site-header">
     <div class="wrap">
       <a class="logo-link" href="#">
-        <!-- replace logo.png with your provided logo file -->
         <img src="images/Screenshot%202025-10-06%20192500.png" alt="Angels Hair Stylists logo" class="logo-img" />
       </a>
 
@@ -44,10 +43,7 @@
             <a class="btn primary" href="#contact">Book Appointment</a>
             <a class="btn outline" href="https://wa.me/27838812841" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
           </div>
-          <ul class="pills reveal delay-3">
-            <li>Weaving</li><li>Styling</li><li>Razor Cuts</li><li>Bobcuts</li>
-            <li>Dreadlocks</li><li>Haircuts</li><li>Braids</li><li>Twists</li><li>Relaxer</li>
-          </ul>
+          <!-- Removed pill list -->
         </div>
 
         <div class="hero-gallery reveal delay-2">
@@ -84,7 +80,6 @@
         <p class="lead reveal delay-1">A selection of looks we love — tap to open.</p>
 
         <div class="gallery-grid">
-          <!-- use real images; placeholders used here -->
           <button class="gallery-item reveal delay-2" data-src="g.1.jpg" aria-label="Open image 1"><img src="images/Screenshot%202025-10-06%20192353.png" alt="braids"/></button>
           <button class="gallery-item reveal delay-3" data-src="g2.jpg" aria-label="Open image 2"><img src="images/Screenshot%202025-10-06%20194813.png" alt="bobcut"/></button>
           <button class="gallery-item reveal delay-4" data-src="g3.jpg" aria-label="Open image 3"><img src="images/Screenshot%202025-10-06%20192234.png" alt="dreadlocks"/></button>
@@ -95,54 +90,41 @@
       </div>
     </section>
 
-    <!-- TEAM -->
-    <section id="team" class="section">
-      <div class="wrap">
-        <h2 class="section-title reveal">Meet Our Stylists</h2>
-        <div class="team-grid">
-          <div class="team-card reveal delay-1"><img src="stylist1.jpg" alt=""><h4>Stylist One</h4><p>Braids & Extensions</p></div>
-          <div class="team-card reveal delay-2"><img src="stylist2.jpg" alt=""><h4>Stylist Two</h4><p>Razor Cuts & Fades</p></div>
-          <div class="team-card reveal delay-3"><img src="stylist3.jpg" alt=""><h4>Stylist Three</h4><p>Colour & Relaxer</p></div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="wrap contact-grid">
+        <div class="contact-card reveal">
+          <h2>Contact & Location</h2>
+          <p><strong>Address</strong><br>Bedford Centre, Smith Rd, Bedfordview, Johannesburg 2007</p>
+          <p><strong>Hours</strong><br>Mon–Fri 9am–6pm • Sat 9am–5pm • Sun 9am–2pm</p>
+
+          <div class="contact-lines">
+            <a class="contact-line" href="tel:0116156150">
+              <i class="fa-solid fa-phone"></i><span>011 615 6150</span>
+            </a>
+
+            <a class="contact-line" href="https://wa.me/27838812841" target="_blank" rel="noopener" aria-label="Open WhatsApp chat">
+              <i class="fab fa-whatsapp whatsapp"></i><span>083 881 2841</span>
+            </a>
+
+            <a class="contact-line" href="https://www.instagram.com/angelshairstylists/" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fab fa-instagram"></i><span>@angelshairstylists</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="map-card reveal delay-1">
+          <iframe
+            src="https://www.google.com/maps?q=Bedford+Centre,+Smith+Rd,+Bedfordview,+Johannesburg,+2007&output=embed"
+            title="Angels Hair Stylists location"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            style="border:0;">
+          </iframe>
         </div>
       </div>
     </section>
-
-   <!-- CONTACT -->
-<section id="contact" class="section contact-section">
-  <div class="wrap contact-grid">
-    <div class="contact-card reveal">
-      <h2>Contact & Location</h2>
-      <p><strong>Address</strong><br>Bedford Centre, Smith Rd, Bedfordview, Johannesburg 2007</p>
-      <p><strong>Hours</strong><br>Mon–Fri 9am–6pm • Sat 9am–5pm • Sun 9am–2pm</p>
-
-      <div class="contact-lines">
-        <a class="contact-line" href="tel:0116156150">
-          <i class="fa-solid fa-phone"></i><span>011 615 6150</span>
-        </a>
-
-        <a class="contact-line" href="https://wa.me/27838812841" target="_blank" rel="noopener" aria-label="Open WhatsApp chat">
-          <i class="fab fa-whatsapp whatsapp"></i><span>083 881 2841</span>
-        </a>
-
-        <a class="contact-line" href="https://www.instagram.com/angelshairstylists/" target="_blank" rel="noopener" aria-label="Instagram">
-          <i class="fab fa-instagram"></i><span>@angelshairstylists</span>
-        </a>
-      </div>
-    </div>
-
-    <div class="map-card reveal delay-1">
-      <iframe
-        src="https://www.google.com/maps?q=Bedford+Centre,+Smith+Rd,+Bedfordview,+Johannesburg,+2007&output=embed"
-        title="Angels Hair Stylists location"
-        allowfullscreen
-        referrerpolicy="no-referrer-when-downgrade"
-        style="border:0;">
-      </iframe>
-    </div>
-  </div>
-</section>
-
-    
   </main>
 
   <footer class="site-footer">
@@ -155,7 +137,6 @@
     </div>
   </footer>
 
-  <!-- LIGHTBOX MODAL -->
   <div id="lightbox" class="lightbox" aria-hidden="true">
     <button class="lb-close" aria-label="Close">✕</button>
     <img class="lb-img" alt="Gallery image"/>
